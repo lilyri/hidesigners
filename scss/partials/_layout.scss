@@ -1,0 +1,71 @@
+/* RESET BODY */@at-root
+body {
+    margin: 0;
+}
+
+/* CONTAINER */
+.container {
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 0 1em;
+}
+
+/* SIDE-CONTAINER */
+.side-container {
+
+}
+
+.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+}
+
+.sectiontitle {
+    text-align: center;
+}
+
+.newstitle {
+    text-align: left;
+}
+
+.date {
+    text-align: right
+}
+
+
+
+
+/* MEDIA QUERIES */
+
+/* RESPONSIVE TYPOGRAPHY */
+//SMALL
+body { font-size: 87.5%; }
+
+@media (min-width: $breakpoint-small) {
+    body { font-size: 100%; }
+}
+
+@media (min-width: $breakpoint-large) {
+    body { font-size: 112.5%; }
+}
+
+@media (min-width: $breakpoint-small) {
+    .two-col-with-aside {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .two-col-with-aside > section {
+        width: 58.33%;
+        // background-color: pink;
+    }
+
+    .two-col-with-aside aside,
+    .two-col-with-aside .aside-content {
+        width: 33.33%;
+        // background-color: teal;
+    }
+}

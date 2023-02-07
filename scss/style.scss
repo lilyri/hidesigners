@@ -1,0 +1,61 @@
+
+/* GLOBAL RESETS */
+* { box-sizing: border-box; }
+
+// VARIABLES
+$color-text-body: rgba(0,0,0,.8);
+$color-text-body-light: rgba(255,255,255,.8);
+$color-text-headings: rgba(0,0,0,1);
+$color-text-headings-light: rgba(255,255,255,1);
+$color-accent: rgba(255,187,0);
+$color-accent-dark: rgb(10, 6, 90);
+$color-accent-light: rgb(202, 202, 255);
+$color-link: #7cddca;
+$color-link-dark: #35b89e;
+$color-link-darker: #04715b;
+
+
+$color-lightgrey: rgba(0,0,0,.5);
+
+// $hn-headings-font: 'multi-text', Arial, Helvetica, sans-serif;
+// $font-family-serif: 'Artigo', Georgia, 'Times New Roman', Times, serif;
+
+$hn-headings-font: multi-text,arial;
+$hn-body-font: arial;
+
+//BREAKPOINTS
+$breakpoint-small: 768px;
+$breakpoint-medium: 1050px;
+$breakpoint-large: 1250px;
+
+// IMPORT
+@import "partials/toc";
+@import "partials/typography";
+@import "partials/helpers";
+@import "partials/buttons";
+@import "partials/media"; 
+@import "partials/layout"; 
+@import "partials/grid";
+@import "partials/structure";
+@import "partials/sitenav";
+@import "partials/animations";
+
+// SUB PAGE//
+
+//  FORM STYLING
+
+label,
+input {
+    display: block;
+}
+
+input {
+    margin-bottom: 1em;
+    &[type=text] {
+        width: 100%;
+    }
+}
+
+textarea {
+    width: 100%;
+}
