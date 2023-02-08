@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>Hawaii Navigation</title>
+    <title>HIdesigners</title>
     <meta name="description" content="A simple sassy css website starter." />
 
     <!-- VIEWPORT -->
@@ -16,48 +16,41 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body class="homepage">
-  
-  <header class="site-header">
-    <div class="site-id">
-      <div class="logomark">
-            <img src="image/logo_hawaiinavi.png" alt="Square Logo" width="50" height="50">
-      </div>  
-      <h1>Hawaii Navigation</h1>
-    </div>
-    
-    <nav class="site-nav" data-navstate="closed">
-
-      <button class="menu-button">
-        <div class="menu-button-text hide-visually">Menu</div>
-        <svg width="40" height="24" class="squish-x-animation">
-            <rect id="menubar-top" x="0" y="0" width="40" height="4" />
-            <rect id="menubar-mid" x="0" y="10" width="40" height="4" />
-            <rect id="menubar-bot" x="0" y="20" width="40" height="4" />
-        </svg>
-      </button>
-
-
-    <ul>
-      <li><a href="index.html">HOME</a></li>
-      <li><a href="info.html">INFO</a></li>
-      <li><a href="video.html">VIDEOS</a></li>
-      <li><a href="services.html">SERVICES</a></li>
-    </ul>
-
-    </nav>
-  </header>
+<body id="top" data-loom-blur-type="NONE">
+    <header class="site-header toggle-nav sticky" data-navstate="closed">
+        <div class="container">
+            <div class="site-id">
+                <h1>
+                    <a href="#" class="scroll">HI deigners</a>
+                </h1>
+            </div>
+            <nav class="site-nav">
+                <div class="menu-button navicon">Menu</div>
+                <ul class="nav">
+                    <li class="hidden-lg">
+                        <a class="scroll" href="#top">About</a>
+                    </li>
+                    <li class="hidden-lg">
+                        <a class="scroll" href="#ourdesigners">Our Designers</a>
+                    </li>
+                    <li class="hidden-lg">
+                        <a class="scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
 
   <main class="site-main">
 
-    <section class="hero bg-img">
+    <section class="hero slideshow">
         <div class="container">
             <!-- <div class="inline-bg-img">
                 <img src="image/sunset_background_image.jpg" alt="sunset over ocean">
             </div> -->
-            <h1>PLAN YOUR VACATION TO HAWAII</h1>
-            <p>We offer a comprehensive library of videos and a various travel information to help you have the best travel experience in our island.</p>
+            <h1>Who we are & What we can help</h1>
+            <p>This is a small group who</p>
             <div class="button-group">
                 <a href="info.html" class="button">TRAVEL RELATED INFO</a>
                 <a href="video.html" class="button">EXPLORE THE ISLANDS</a>
@@ -65,26 +58,29 @@
         </div>
     </section>
 
+    <section class="hero about">
+        <div class="container">
+            <h3>Who we are & What we can help</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tristique orci eu mattis laoreet. Phasellus eu eleifend eros. Praesent dolor nisi, sollicitudin nec lectus ac, tristique efficitur massa. Nullam nec pharetra quam. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla facilisi. Aliquam sit amet velit eget est pretium dignissim id eget neque. Vestibulum rutrum quam a tortor gravida, efficitur rhoncus urna bibendum. Vestibulum euismod rhoncus tortor ac tincidunt. Nullam odio magna, vulputate vel lectus non, semper posuere ante.</p>
+        </div>
+    </section>
+
     <section id="layout">
         <div class="container">
-            <h3>Read Our Top Articles</h3>
+            <h3>SERVICES CATEGORY</h3>
             <div class="article">
                 <div class="row thumbgroup">
                     <div class="one-fourth column">
                         <img src="https://picsum.photos/200" alt="">
-                        <a href="info.html" class="article">John Doe</a>
+                        <a href="info.html" class="article">Branding</a>
                     </div>
                     <div class="one-fourth column">
                         <img src="https://picsum.photos/200" alt="">
-                        <h4>Which Hawaii Island should you visit?</h4>
+                        <h4>UX/UI Design</h4>
                     </div>
                     <div class="one-fourth column">
                         <img src="https://picsum.photos/200" alt="">
-                        <h4>When is the best season to visit Hawaii?</h4>
-                    </div>
-                    <div class="one-fourth column">
-                        <img src="https://picsum.photos/200" alt="">
-                        <h4>Do you need to rent a car?</h4>
+                        <h4>Website Development</h4>
                     </div>
                 </div>
             </div>
