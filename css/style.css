@@ -938,6 +938,31 @@ textarea {
   display: block;
 }
 
+.card image {
+  width: 30px;
+  height: 30px;
+}
+
+.card p {
+  padding-top: 20px;
+}
+
+.card {
+  background-color: #f7f5f2;
+  box-shadow: 3px 5px #e7e7e7;
+  border-radius: 7px;
+  max-width: 240px;
+  margin: auto;
+  text-align: center;
+}
+
+.title {
+  color: grey;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  font-size: 14px;
+}
+
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {background-color: #ddd;}
 
