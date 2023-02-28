@@ -160,43 +160,80 @@ hr {
   background-color: greenyellow;
 }
 
+/* POSITION ONE IMAGE ON TOP OF ANOTHER */
+.parent {
+  position: relative;
+  top: 0;
+  left: 0;
+} 
+
+.artwork {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.selfimg {
+  position: absolute;
+  top: 350px;
+  left: 70 px;
+  border: 1px white solid;
+}
+
 /* BUTTONS */
   .button {
     width: 300px; 
     display: inline-block;
-    background-color: #7cddca;
     color: black;
     text-decoration: none;
     margin-top: 2em;
-    padding: 1em 2em;
-    border-radius: 5px; 
+    padding: 1em 1em;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% AUTO;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px; 
+    background-image: linear-gradient(to right, #f6f365 0%, #fda085 51%, #f6d365 100%);
 }
 
 .button:hover {
-  background-color: #35b89e;
-  color: white;
+  background-position: right center;
 }
 
 .button1 {
   width: 300px;
   display: inline-block;
   background-color: #000000;
-  color: white;
+  color: black;
   text-decoration: none;
-  padding: 1em 2em;
+  padding: 1em 1em;
   margin-top: 2em;
-  border-radius: 5px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% AUTO;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  background-image: linear-gradient(to right, #84fab0 0%, #8fd3f4 51%, #84fab0 100%);
 }
 
 .button1:hover {
-  background-color: #35b89e;
-  color: white;
+  background-position: right center;
+}
+
+/* ARTIST */
+.name {
+  vertical-align: top;
+
 }
 
 /* RESPONSIVE IMAGES */
 img {
   max-width: 100%;
   height: auto;
+  width: 20px;
+  height: 20px;
 }
 
 /* RESET BODY */
@@ -924,6 +961,179 @@ textarea {
   width: 1000px;
 }
 
+/* GRADUAL BACKGROUND COLOR CHANGE */
+.bg-colors {
+  display: flex;
+  position: fixed;
+  left: 0;
+  top: 40px;
+  width: 100%;
+  height: auto;
+  background: #eee5ac;
+  overflow: atuo;
+  animation: colorchange 60s infinite;
+}
+
+.lc {
+  width: 90%;
+  padding: .8em 0;
+  margin: auto;
+
+}
+
+@media only screen and (min-width: 50em) {
+  .lc {
+    max-width: 50rem;
+  }
+}
+
+@media only screen and (min-width: 33.75em) {
+  .lc {
+    padding: 2em 0;
+  }
+}
+
+
+
+ /* vertical align the items */
+.v-align-outer:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    margin-right: -0.25em; /* Adjusts for spacing */
+  }
+
+.v-align-inner {
+  display: inline-block;
+  vertical-align: middle;
+  width: 300px;
+}
+
+
+@keyframes colorchange {
+  0% {
+    background: #7AD8F5;
+    color: white;
+  }
+  20% {
+    background: #9342A6;
+    color: white;
+  }
+  40% {
+    background: #dc463e;
+    color: white;
+  }
+  60% {
+    background: #FECF87;
+  }
+  61% {
+    color: #333;
+  }
+  80% {
+    background: #AEE77E;
+  }
+  81% {
+    color: white;
+  }
+  100% {
+    background: #7AD8F5;
+    color: white;
+  }
+}
+
+/* CONTACT FORM */
+
+
+.contactus p{
+  text-align: center;
+  margin: 0 auto;
+  width: 1000px;
+}
+
+#contact-form {
+  max-width: 400px;
+  max-width: 75.5rem;
+  margin: 0 auto;
+}
+#contact, label, input[name="submit"] {
+  position: relative;
+}
+label > span, input, textarea, button {
+  box-sizing: border-box;
+}
+label {
+  display: block;
+}
+label > span {
+  display: none;
+}
+input, textarea, button {
+  width: 100%;
+  padding: 0.5em;
+  border: none;
+  font: 300 100%/1.2 Ubuntu, sans-serif;
+}
+input[type="text"], input[type="email"], textarea {
+  margin: 0 0 1em;
+  border: 1px solid #ccc;
+  outline: none;
+}
+input.invalid, textarea.invalid {
+  border-color: #d5144d;
+}
+
+textarea {
+  height: 6em;
+}
+
+input[type="submit"], button {
+  background: #a7cd80;
+  color: #333;
+}
+
+input[type="submit"]:hover, button:hover {
+  background: #91b36f;
+}
+@media screen and (min-width: 30em) {
+  #contact-form h2 {
+    margin-left: 26.3736%;
+    font-size: 2em;
+    line-height: 1.5;
+  }
+  label > span {
+    vertical-align: top;
+    display: inline-block;
+    width: 26.3736%;
+    padding: 0.5em;
+    border: 1px solid transparent;
+    text-align: right;
+  }
+  input, textarea, button {
+    width: 73.6263%;
+    line-height: 1.5;
+  }
+  textarea {
+    height: 10em;
+  }
+  input[type="submit"], button {
+    margin-left: 26.3736%;
+  }
+}
+@media screen and (min-width: 48em) {
+  #contact-form {
+    text-align: justify;
+    line-height: 0;
+  }
+  #contact-form:after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+  }
+ }
+
+
+
 /* Dropdown Button */
 .dropbtn {
   background-color: #04AA6D;
@@ -995,3 +1205,22 @@ textarea {
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {display: block;}
+
+/*TOOLTIP*/
+.tooltip {
+  position: relative;
+  display: block;
+}
+
+.tooltip:hover .tooltip_text {
+  display: block;
+}
+
+.tooltip_text {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  white-space: nowrap;
+  display: none;
+}
