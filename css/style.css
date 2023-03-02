@@ -232,8 +232,6 @@ hr {
 img {
   max-width: 100%;
   height: auto;
-  width: 20px;
-  height: 20px;
 }
 
 /* RESET BODY */
@@ -953,6 +951,8 @@ textarea {
 
 #services img {
   margin-right: 1em;
+  width: 20px;
+  height: 20px;
 }
 
 .about p{
