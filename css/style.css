@@ -181,21 +181,21 @@ hr {
 }
 
 /* BUTTONS */
-  .button {
-    width: 300px; 
-    display: inline-block;
-    color: black;
-    text-decoration: none;
-    margin-top: 2em;
-    padding: 1em 1em;
-    text-align: center;
-    text-transform: uppercase;
-    transition: 0.5s;
-    background-size: 200% AUTO;
-    box-shadow: 0 0 20px #eee;
-    border-radius: 10px; 
-    background-image: linear-gradient(to right, #f6f365 0%, #fda085 51%, #f6d365 100%);
-}
+                                .button {
+                                  width: 300px; 
+                                  display: inline-block;
+                                  color: black;
+                                  text-decoration: none;
+                                  margin-top: 2em;
+                                  padding: 1em 1em;
+                                  text-align: center;
+                                  text-transform: uppercase;
+                                  transition: 0.5s;
+                                  background-size: 200% AUTO;
+                                  box-shadow: 0 0 20px #eee;
+                                  border-radius: 10px; 
+                                  background-image: linear-gradient(to right, #f6f365 0%, #fda085 51%, #f6d365 100%);
+                              }
 
 .button:hover {
   background-position: right center;
@@ -430,6 +430,7 @@ body {
 }
 
 .site-main {
+  background-color: f6f0f0;
   /* overflow-x: hidden; */
   /*padding-bottom: 6em;*/
 }
