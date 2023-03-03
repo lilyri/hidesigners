@@ -60,91 +60,60 @@
     </header>
 
     <main class="site-main">
-    <div class="bg-colors v-align-outer">
-        <div class="lc vi-align-inner">
-            <section class="hero slideshow">
-            </section>
+        <div class="bg-colors v-align-outer">
+            <div class="lc vi-align-inner">
+                <section class="hero slideshow">
+                </section>
 
-            <section class="contactus">
-                <div class="container">
-                    <h3>Get in Touch</h3>
-                    <p>Thank you for stopping by. Please feel free to get a quote. We'll get back to you as soon as possible.</p>
+                <section class="contactus">
+                    <div class="container">
+                        <h3>Get in Touch</h3>
+                        <p>Thank you for stopping by. Please feel free to get a quote. We'll get back to you as soon as possible.</p>
+                    </div>
+                </section>
+
+                <section id="contact-form">
+                    <h2>Contact</h2>
+                    <form id="contact" name="contact" accept-charset="utf-8">
+                    <label><span>Name</span><input name="name" type="text" placeholder="Name"/></label>
+                    <label><span>Email</span><input name="email" type="email" placeholder="Email"/></label>
+                        <label><span>Message Subject</span>
+                <!--     </span><input name="subject" type="subject" placeholder="Message Subject"/></label> -->
+                    <select name="category" id="category">
+                        <option value="branding">Branding</option>
+                        <option value="branding">UX/UI Design</option>
+                        <option value="branding">Web Development</option>
+                        <option value="branding">Motion Graphic</option>
+                        <option value="branding">Video Editing</option>
+                        <option value="branding">Photography</option>
+                        <option value="branding">Others</option>
+                    </slect>
+                    <label><span>Message</span><textarea name="message" placeholder="Message"></textarea></label>
+                    <input name="submit" type="submit" value="Send"/>
+                    </form>
+                </section>
+            </div>
+        </div>
+    </main>
+
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="one-third">
+                    <h6>Copyright 2023 HIdesigners</h6>
                 </div>
-            </section>
-
-            <section id="contact-form">
-                <h2>Contact</h2>
-                <form id="contact" name="contact" accept-charset="utf-8">
-                  <label><span>Name</span><input name="name" type="text" placeholder="Name"/></label>
-                  <label><span>Email</span><input name="email" type="email" placeholder="Email"/></label>
-                      <label><span>Message Subject
-              <!--     </span><input name="subject" type="subject" placeholder="Message Subject"/></label> -->
-                  <select name="category" id="category">
-                    <option value="branding">Branding</option>
-                    <option value="branding">UX/UI Design</option>
-                    <option value="branding">Web Development</option>
-                    <option value="branding">Motion Graphic</option>
-                    <option value="branding">Video Editing</option>
-                    <option value="branding">Photography</option>
-                    <option value="branding">Others</option>
-                  </slect>
-                  <label><span>Message</span><textarea name="message" placeholder="Message"></textarea></label>
-                  <input name="submit" type="submit" value="Send"/>
-                </form>
-              </section>
-
-            <!-- <section id="contact">
-                <div class="container">
-                    <form>      
-                        <input name="name" type="text" class="feedback-input" placeholder="Name" />   
-                        <input name="email" type="text" class="feedback-input" placeholder="Email" />
-                        <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
-                        <input type="submit" value="SUBMIT"/>
-                      </form>
-                    <!-- <div class="row">
-                        <div class="one-third column">
-                            <img class="float-left" src="image/placeholder-80x80.jpg">
-                            <div class="text-block">
-                                <p>Lorem ipsum dolor sit amet consectetur.<br /><a href="#link" class="branding">Read More</a></p>
-                                <p style="padding-top: 1000px">
-                                <a id="link">Branding</a></p>
-                            </div>
-                        </div>
-                        <div class="two-thirds column">
-                            <img class="float-left" src="image/placeholder-80x80.jpg">
-                            <div class="text-block">
-                                <h5>UX/UI Design</h5> 
-                                <p>Lorem ipsum dolor sit amet consectetur.<br><a href="#" class="UIdesign_details">Read More</a></p>
-                            </div>
-                        </div>
-                    </div>               -->
+                <div class="one-third">
+                    <h6>Privacy Policy</h6>
                 </div>
-            </section> -->
+                <div class="one-third">
+                    <h6>Terms and Conditions</h6>
+                </div>
+            </div>
 
 
         </div>
-    </div>
-</main>
-
-<footer class="site-footer">
-    <div class="container">
-
-
-        <div class="row">
-            <div class="one-third">
-                <h6>Copyright 2023 HIdesigners</h6>
-            </div>
-            <div class="one-third">
-                <h6>Privacy Policy</h6>
-            </div>
-            <div class="one-third">
-                <h6>Terms and Conditions</h6>
-            </div>
-        </div>
-
-
-    </div>
-</footer>
+    </footer>
 
 <!-- SMOOTH SCROLL BY CHRIS FERDINANDI https://github.com/cferdinandi/smooth-scroll -->
 <script src="js/smooth-scroll.polyfills.min.js"></script>
@@ -159,5 +128,4 @@
 <script src="js/script.js" defer></script>
 
 </body>
-
 </html>
