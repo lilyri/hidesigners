@@ -1275,6 +1275,8 @@ button:hover {
   background: #91b36f;
 }
 
+
+/* CONTACT FORM STYLING */
 @media screen and (min-width: 30em) {
   #contact-form h2 {
     margin-left: 26.3736%;
@@ -1282,7 +1284,7 @@ button:hover {
     line-height: 1.5;
   }
 
-  label>span {
+  #contact-form label>span {
     vertical-align: top;
     display: inline-block;
     width: 26.3736%;
@@ -1291,19 +1293,19 @@ button:hover {
     text-align: right;
   }
 
-  input,
-  textarea,
-  button {
+  #contact-form input,
+  #contact-form textarea,
+  #contact-form button {
     width: 73.6263%;
     line-height: 1.5;
   }
 
-  textarea {
+  #contact-form textarea {
     height: 10em;
   }
 
-  input[type="submit"],
-  button {
+  #contact-form input[type="submit"],
+  #contact-form button {
     margin-left: 26.3736%;
   }
 }
@@ -1325,7 +1327,8 @@ button:hover {
 
 /* Dropdown Button */
 .dropbtn {
-  background-color: #04AA6D;
+  /* background-color: #04AA6D; */
+  background-color: transparent;
   color: white;
   padding: 16px;
   font-size: 16px;
@@ -1450,7 +1453,7 @@ img {
 }
 
 .bigunderline::after {
-  content:"";
+  content: "";
   width: 300vh;
   position: absolute;
   bottom: -0.2em;
