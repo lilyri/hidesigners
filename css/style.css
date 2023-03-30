@@ -109,7 +109,7 @@ h6 {
 /* LIMIT NUMBER OF CHARACTERS PER LINE */
 p {
   max-width: 45em;
-  font-size: 0.7em;
+  font-size: 0.9em;
 }
 
 /* LINKS */
@@ -259,7 +259,7 @@ body {
 .container {
   margin: 0 auto;
   max-width: 1200px;
-  padding: 0 1em;
+  padding: 3em 1em;
 }
 
 /* SIDE-CONTAINER */
@@ -282,6 +282,38 @@ body {
   text-align: right;
 }
 
+/* BREADCRUMB */
+ul.breadcrumb {
+  padding: 2px 16px;
+  list-style: none;
+  background-color: transparent;
+}
+
+/* Display list items side by side */
+ul.breadcrumb li {
+  display: inline;
+  font-size: 12px;
+}
+
+/* Add a slash symbol (/) before/behind each list item */
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+}
+
+/* Add a color to all links inside the list */
+ul.breadcrumb li a {
+  color: #bcbcbc;
+  text-decoration: none;
+}
+
+/* Add a color on mouse-over */
+ul.breadcrumb li a:hover {
+  color: #01447e;
+  text-decoration: underline;
+}
+
 /* MEDIA QUERIES */
 /* RESPONSIVE TYPOGRAPHY */
 body {
@@ -294,11 +326,11 @@ body {
   }
 }
 
-@media (min-width: 1250px) {
+/* @media (min-width: 1250px) {
   body {
     font-size: 112.5%;
   }
-}
+} */
 
 @media (min-width: 768px) {
   .two-col-with-aside {
@@ -326,7 +358,7 @@ body {
   margin-left: -1%;
   margin-right: -1%;
   align-items: center;
-  margin-bottom: 1em;
+  /* margin-bottom: 1em; */
   width: 100%;
 }
 
@@ -518,15 +550,13 @@ body {
 
 
 section {
-  padding: 4em 0;
+  padding: 1em 0;
   overflow: hidden;
   background: #FFF5F4;
   ;
 }
 
 .two-up {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
@@ -544,7 +574,7 @@ h6 {
 .hero {
   background-color: #FFD2CF;
   text-align: center;
-  padding: 8em 0 4em 0;
+  padding: 10em 0 4em 0;
   /* min-height: 101vh; */
   color: rgba(255, 255, 255, 0.8);
   display: -webkit-box;
@@ -1092,14 +1122,13 @@ textarea {
   width: 100%;
 }
 
-/* .float-left {
-  float: left;
-} */
 
 /* SERVICES SECTION STYLES */
 
 #services {
   background-color: white;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
 }
 
 #services .column {
@@ -1293,54 +1322,6 @@ button:hover {
   position: relative;
 }
 
-/* @media screen and (min-width: 30em) {
-  #contact-form h2 {
-    margin-left: 26.3736%;
-    font-size: 2em;
-    line-height: 1.5;
-  }
-
-  #contact-form label>span {
-    vertical-align: top;
-    display: inline-block;
-    width: 26.3736%;
-    padding: 0.5em;
-    border: 1px solid transparent;
-    text-align: right;
-  }
-
-  #contact-form input,
-  #contact-form textarea,
-  #contact-form button {
-    width: 73.6263%;
-    line-height: 1.5;
-  }
-
-  #contact-form textarea {
-    height: 10em;
-  }
-
-  #contact-form input[type="submit"],
-  #contact-form button {
-    margin-left: 26.3736%;
-  }
-} */
-
-/* @media screen and (min-width: 48em) {
-  #contact-form {
-    text-align: justify;
-    line-height: 0;
-  }
-
-  #contact-form:after {
-    content: '';
-    display: inline-block;
-    width: 100%;
-  }
-} */
-
-
-
 /* Dropdown Button */
 .dropbtn {
   /* background-color: #04AA6D; */
@@ -1476,7 +1457,6 @@ button:hover {
   max-width: 1200px;
   margin: 0 auto;
 } */
-
 
 
 /* .about {
