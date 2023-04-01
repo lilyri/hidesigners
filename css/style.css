@@ -53,7 +53,13 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: multi-text, arial;
+  font-family: sans-serif, dnp-shuei-nshogomincho-std;
+  font-weight: 700;
+  font-style: normal;
+}
+
+p {
+  font-family: sans-serif, a-otf-gothic-mb101-pr6n;
   font-weight: 300;
   font-style: normal;
 }
