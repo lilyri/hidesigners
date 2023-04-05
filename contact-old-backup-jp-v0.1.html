@@ -90,10 +90,29 @@
 
         <section id="contact-form">
             <div class="container">
-                <div id="wufoo-q1qfndxb1xnhu4y"> Fill out my <a
-                        href="https://hidesigner.wufoo.com/forms/q1qfndxb1xnhu4y">online form</a>. </div>
-                <script
-                    type="text/javascript"> var q1qfndxb1xnhu4y; (function (d, t) { var s = d.createElement(t), options = { 'userName': 'hidesigner', 'formHash': 'q1qfndxb1xnhu4y', 'autoResize': true, 'height': '640', 'async': true, 'host': 'wufoo.com', 'header': 'show', 'ssl': true }; s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'secure.wufoo.com/scripts/embed/form.js'; s.onload = s.onreadystatechange = function () { var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return; try { q1qfndxb1xnhu4y = new WufooForm(); q1qfndxb1xnhu4y.initialize(options); q1qfndxb1xnhu4y.display(); } catch (e) { } }; var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr); })(document, 'script'); </script>
+                <h2>Contact</h2>
+                <form id="contact" name="contact" accept-charset="utf-8">
+
+                    <label><span>会社名・部署名</span></label>
+                    <input name="company name" type="text" placeholder="company name" />
+                    <label><span>お名前</span></label>
+                    <input name="name" type="text" placeholder="First name, Last name" />
+                    <label><span>Email</span></label>
+                    <input name="email" type="email" placeholder="youremail@youremailaddress.com" />
+                    <label><span>お問合せカテゴリー</span></label>
+                    <select name="category" id="category">
+                        <option value="branding">ブランドのデザイン</option>
+                        <option value="branding">UX/UIデザイン</option>
+                        <option value="branding">ウェブサイト構築</option>
+                        <option value="branding">モーショングラフィックス</option>
+                        <option value="branding">ビデオの製作・編集</option>
+                        <option value="branding">フォトグラフィー</option>
+                        <option value="branding">その他</option>
+                    </select>
+                    <label><span>メッセージ</span></label>
+                    <textarea name="message" placeholder="Aloha!"></textarea>
+                    <input name="submit" type="submit" value="送信" />
+                </form>
             </div>
         </section>
         <!-- </div>
