@@ -1329,37 +1329,30 @@ button:hover {
 }
 
 /* LANGUAGE SWITCHER */
-.language-switcher {
-  margin-top: 15px;
+/* .languageswitcher {
+  background: red;
+} */
+
+.languageswitcher ul {
+  display: none;
 }
 
-.selected-lang {
-  cursor: pointer;
-  display: flex;
-  justify-content: space-between;
-  line-height: 2;
-  width: 100px;
+.languageswitcher span {
+  margin-left: .5em;
 }
 
-.selected-lang::before {
-  content: '';
+.languageswitcher:hover ul {
   display: block;
-  width: 50px;
-  height: 38px;
-  /* background-image: url() */
 }
 
-.language-switcher ul {
-  margin: 0;
-  padding: 0;
-  background-color: #ffffff;
-  border: 1px solid #f8f8f8;
+.languageswitcher a {
+  padding-bottom: 0;
+  display: flex;
+  align-items: center;
 }
 
-.language-switcher ul li {
-  list-style: none;
 
-}
+
 
 
 /* CARD */
