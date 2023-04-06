@@ -46,19 +46,7 @@
                     <a class="scroll" href="contact.html">お問合せ</a>
                 </li>
                 <li>
-                    <div class="language-switcher">
-                        <div class="selected-lang">
-                            <img src="image/flag-jp.png" width="20" height="10" alt="japanese-flg">Japanese
-                        </div>
-                    </div>
-                    <ul>
-                        <li>
-                            <img src="image/flag-us.png" width="20" height="10" alt="usa-flg">English
-                        </li>
-                    </ul>
-
-
-                    <!-- <div class="dropdown">
+                    <div class="dropdown">
                         <button class="dropbtn">言語</button>
                         <div class="dropdown-japanese">
                             <a href="#">JPN</a>
@@ -66,8 +54,7 @@
                         <div class="dropdown-english">
                             <a href="#">USD</a>
                         </div>
-                    </div> -->
-
+                    </div>
                     <!-- <div class="language-switcher" aria-label="select language">
                         <a id="international_domain_drop_drown" class="language link" language-click="toggleregion()" aria-haspopup="true" aria-expanded="false" aria-label="select language">
                             <i class="icon-flag-usa"></i>
