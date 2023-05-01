@@ -558,7 +558,7 @@ body {
 
 /* HERO SECTION */
 .hero {
-  background-color: #FFD2CF;
+  /* background-color: #FFD2CF; */
   text-align: center;
   padding: 4em 0 2em 0;
   /* min-height: 101vh; */
@@ -569,7 +569,10 @@ body {
 
 .hero h1 {
   margin-bottom: 0.25em;
-  color: #9400D3;
+  color: #000000;
+  /* background-image: url("image/bg_home_navi");
+  background-repeat: no-repeat, repeat;
+  /* background-color: #cccccc; */
   /* color: rgb(255, 255, 255); */
 }
 
@@ -601,8 +604,6 @@ body {
   display: -ms-flexbox;
   display: flex;
 }
-
-
 
 .aside-content {
   justify-content: space-between;
@@ -1417,8 +1418,18 @@ button:hover {
   border-bottom: 1px solid black;
 }
 
+.page-home .hero {
+  background-image: url("../image/bg_home_navi.jpg");
+  background-size: cover;
+}
+
 .page-home .hero .container {
   padding-bottom: 1em;
+}
+
+.page-ourdesigners .hero {
+  background-image: url("../image/bg_ourdesigners.jpg");
+  background-size: cover;
 }
 
 /* ANIMATION BOX */
