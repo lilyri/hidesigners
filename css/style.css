@@ -296,6 +296,11 @@ body {
   text-align: right;
 }
 
+/* CONTAINER */
+.services .container {
+  background: E6E6FA;
+}
+
 /* BREADCRUMB */
 ul.breadcrumb {
   padding: 2px 16px;
@@ -1436,6 +1441,12 @@ button:hover {
   background-image: url("../image/bg_christel.jpg");
   background-size: cover;
 }
+
+.page-contact .hero {
+  background-image: url("../image/bg_contact.jpg");
+  background-size: cover;
+}
+
 
 
 
