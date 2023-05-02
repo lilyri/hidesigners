@@ -1432,6 +1432,13 @@ button:hover {
   background-size: cover;
 }
 
+.page-christel .hero {
+  background-image: url("../image/bg_christel.jpg");
+  background-size: cover;
+}
+
+
+
 /* ANIMATION BOX */
 .animation-box {
   width: 100%;
