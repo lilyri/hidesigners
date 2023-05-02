@@ -56,11 +56,19 @@ h6 {
   font-family: sans-serif, dnp-shuei-nshogomincho-std;
   font-weight: 700;
   font-style: normal;
+  text-decoration: none;
+
 }
 
 p {
   font-family: sans-serif, a-otf-gothic-mb101-pr6n;
   font-weight: 300;
+  font-style: normal;
+}
+
+.site-id h3 {
+  font-family: eb-garamond, serif;
+  font-weight: 400;
   font-style: normal;
 }
 
@@ -264,6 +272,11 @@ img {
   height: auto;
 }
 
+.artborder {
+  border: 10px solid white;
+  box-shadow: 0 0 0 4px grey, 0 0 20px 0px rgba(0, 0, 0, 0.5);
+}
+
 /* RESET BODY */
 body {
   margin: 0;
@@ -297,9 +310,6 @@ body {
 }
 
 /* CONTAINER */
-.services .container {
-  background: E6E6FA;
-}
 
 /* BREADCRUMB */
 ul.breadcrumb {
@@ -530,7 +540,7 @@ body {
 }
 
 .site-footer a {
-  color: white;
+  color: black;
   text-decoration: none;
 }
 
@@ -1117,7 +1127,7 @@ textarea {
 /* SERVICES SECTION STYLES */
 
 #services {
-  background-color: white;
+  background-color: #FFF5F4;
   margin-top: 1.5em;
   margin-bottom: 1.5em;
 }
@@ -1299,7 +1309,7 @@ button:hover {
   width: 1000px;
 }
 
-.contact-form {
+#contact-form {
   background-color: #FFF5F4;
 }
 
@@ -1312,6 +1322,11 @@ button:hover {
 #contact input[name="submit"] {
   position: relative;
 }
+
+/* PRIVATE POLICY */
+/* .policy {
+  padding:
+} */
 
 /* LANGUAGE SWITCHER */
 /* .languageswitcher {
@@ -1345,6 +1360,10 @@ button:hover {
 .card p {
   padding-top: 20px;
   text-align: center;
+}
+
+.card a {
+  text-decoration: none;
 }
 
 .card {
