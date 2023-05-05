@@ -1576,6 +1576,17 @@ button:hover {
 }
 
 /* SITE POLICY */
+.policy {
+  margin: 2em;
+}
+
+.policy h3 {
+  color: black;
+}
+
+.policy .p {
+  font: 1em;
+}
 
 /* * {
   border: 1px solid red;
