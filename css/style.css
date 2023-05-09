@@ -315,8 +315,6 @@ body {
   text-align: right;
 }
 
-/* CONTAINER */
-
 /* BREADCRUMB */
 ul.breadcrumb {
   padding: 2px 16px;
@@ -1578,6 +1576,11 @@ button:hover {
 /* SITE POLICY */
 .policy {
   margin: 2em;
+  display: block;
+}
+
+.policy .container {
+  margin: auto;
 }
 
 .policy h3 {
@@ -1586,6 +1589,11 @@ button:hover {
 
 .policy .p {
   font: 1em;
+}
+
+#page-wrap .container_video {
+  width: 1200px;
+  margin: 0 auto;
 }
 
 /* * {
