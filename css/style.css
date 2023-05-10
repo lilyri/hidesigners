@@ -66,10 +66,17 @@ p {
   font-style: normal;
 }
 
-.site-id h3 {
+.site-id h1 {
   font-family: eb-garamond, serif;
   font-weight: 400;
   font-style: normal;
+  font-size: 1.25em;
+  line-height: 1.2;
+  text-align: left;
+  background: none;
+  -webkit-background-clip: border-box;
+  -webkit-text-fill-color: currentColor;
+  color: white;
 }
 
 /* BASE TYPOGRAPHY */
@@ -533,7 +540,7 @@ body {
 }
 
 .site-header a {
-  color: black;
+  color: white;
   text-decoration: none;
 }
 
@@ -597,7 +604,7 @@ body {
 
 .hero p {
   margin: 1em auto;
-  color: black;
+  color: white;
 }
 
 .hero.bg-img {
@@ -613,7 +620,7 @@ body {
 }
 
 .thumbgroup img {
-  width: 100%;
+  /* width: 100%; */
   height: 100%;
   object-fit: cover;
 }
@@ -1357,13 +1364,15 @@ button:hover {
 
 
 /* CARD */
-.card h5 {
+.card h4 {
   margin-top: 30px;
+  text-align: center;
 }
 
 .card p {
   padding-top: 20px;
   text-align: center;
+  margin-top: 0;
 }
 
 .card a {
@@ -1377,21 +1386,36 @@ button:hover {
   max-width: 240px;
   margin: auto;
   text-align: center;
-  padding-bottom: 50px;
+  padding-bottom: 3px;
+  position: relative;
 }
 
 .card img {
-  width: 40%;
-  padding-top: 50px;
+  position: relative;
+  z-index: 2;
+  width: 60%;
+  padding-top: 47px;
 }
 
 .card .title {
   color: grey;
-  padding-top: 50px;
+  padding-top: 20px;
   padding-bottom: 20px;
   font-size: 14px;
 }
 
+.card:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #ae6fbf;
+  height: 50%;
+  content: "";
+  z-index: 1;
+  border-radius: 7px 7px 0 0;
+  /* box-shadow: 3px 5px #ae6fbf; */
+}
 
 /*TOOLTIP*/
 .tooltip {
@@ -1580,11 +1604,14 @@ button:hover {
 }
 
 .policy .container {
-  margin: auto;
+  max-width: 680px;
 }
 
 .policy h3 {
-  color: black;
+  margin-bottom: 1.5em;
+  background: none;
+  -webkit-background-clip: border-box;
+  -webkit-text-fill-color: currentColor;
 }
 
 .policy .p {
