@@ -77,6 +77,9 @@ p {
   -webkit-background-clip: border-box;
   -webkit-text-fill-color: currentColor;
   color: white;
+  font-family: "mr-eaves-sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 /* BASE TYPOGRAPHY */
@@ -553,6 +556,12 @@ body {
 .site-footer a {
   color: black;
   text-decoration: none;
+}
+
+.site-footer p {
+  font-family: "mr-eaves-sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .site-footer .container {
@@ -1411,8 +1420,8 @@ button:hover {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: #ae6fbf;
-  height: 40%;
+  background-color: #b641f7;
+  height: 35%;
   content: "";
   z-index: 1;
   border-radius: 7px 7px 0 0;
