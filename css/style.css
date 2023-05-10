@@ -1377,6 +1377,8 @@ button:hover {
 
 .card a {
   text-decoration: none;
+  display: block;
+  padding: 0 1em;
 }
 
 .card {
@@ -1410,7 +1412,7 @@ button:hover {
   left: 0;
   width: 100%;
   background-color: #ae6fbf;
-  height: 50%;
+  height: 40%;
   content: "";
   z-index: 1;
   border-radius: 7px 7px 0 0;
@@ -1626,3 +1628,18 @@ button:hover {
 /* * {
   border: 1px solid red;
 } */
+
+/* CUSTOME CARD GRID */
+.card-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card-wrapper {
+  width: 25%;
+  margin-bottom: 3em;
+}
+
+.card-wrapper .card {
+  height: 100%;
+}
