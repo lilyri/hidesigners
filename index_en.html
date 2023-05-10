@@ -1,0 +1,326 @@
+<!doctype html>
+<html lang="jp">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Hawaii Designers</title>
+    <meta name="description" content="A simple sassy css website starter." />
+
+    <!-- VIEWPORT -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- ADOBE FONTS-->
+    <!-- <link rel="stylesheet" href="https://use.typekit.net/rzn2jxa.css"> -->
+    <script>
+        (function (d) {
+            var config = {
+                kitId: 'nrj2syo',
+                scriptTimeout: 3000,
+                async: true
+            },
+                h = d.documentElement, t = setTimeout(function () { h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive"; }, config.scriptTimeout), tk = d.createElement("script"), f = false, s = d.getElementsByTagName("script")[0], a; h.className += " wf-loading"; tk.src = 'https://use.typekit.net/' + config.kitId + '.js'; tk.async = true; tk.onload = tk.onreadystatechange = function () { a = this.readyState; if (f || a && a != "complete" && a != "loaded") return; f = true; clearTimeout(t); try { Typekit.load(config) } catch (e) { } }; s.parentNode.insertBefore(tk, s)
+        })(document);
+    </script>
+
+    <!-- MAIN CSS STYLE-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="page-home" id="top" data-loom-blur-type="NONE">
+    <header class="site-header toggle-nav sticky" data-navstate="closed">
+        <div class="site-id">
+            <img src="image/Logo_Hawaii Designers.png" alt="logo" width="50" height="50">
+            <h1>
+                <a href="index.html" class="scroll">Hawaii Designers</a>
+            </h1>
+        </div>
+        <nav class="site-nav">
+            <div class="menu-button navicon hide-visually">Menu</div>
+            <ul class="nav">
+                <li class="hidden-lg">
+                    <a class="scroll" href="index.html">Home</a>
+                </li>
+                <li class="hidden-lg">
+                    <a class="scroll" href="ourdesigners.html">Meet the designers</a>
+                </li>
+                <li class="hidden-lg">
+                    <a class="scroll" href="contact.html">Contact</a>
+                </li>
+                <li class="languageswitcher">
+                    <a href="index.html"><img src="image/flag-jp.png" width="25" height="19"
+                            alt="japanese-flg"><span>Japanese</span>
+                    </a>
+                    <ul>
+                        <li>
+                            <a href="index_en.html"><img src="image/flag-us.png" width="25" height="19"
+                                    alt="usa-flg"><span>English</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="site-main">
+        <section class="hero slideshow">
+            <div class="container">
+                <!-- <img src="image/bg_home_navi.jpg" alt="background_main"> -->
+
+                <section class="animation-box">
+                    <div class="first-text">
+                        <h1>Have FUN!</h1>
+                    </div>
+                    <div class="second-text">
+                        <h1>Be CREATIVE!</h1>
+                    </div>
+                    <div class="third-text">
+                        <p>Hawaii designers provide authentic new value through design</p>
+                    </div>
+                </section>
+            </div>
+        </section>
+
+        <section class="about">
+            <div class="container">
+                <h3>このサイトについて</h3><br><br>
+                <p>
+                    HawaiiDesignersは、ハワイでグラフィックデザインを専攻した特に優れたアーティスト達を日本に紹介し、繋いでいくための“架け橋”として誕生しました。<br><br>
+                    これは、ハワイのデザイナーをサポートする取り組みでもあります。<br><br>
+                    創造してください。柔軟な発想から表現される、ユニーク且つ独創性のあるデザインを。腕の良いハワイの若きクリエイター達があなたの理想を叶えてくれることを。<br><br>
+                    世界にひとつの特別なものを生み出すために、私たちが全力でサポートします。<br><br>
+                    モノが溢れている今、ほしい物はクリックひとつで簡単に手に入り、商品はデザインが洗練されていなければ売れない時代になりつつあります。デザインのセンスがビジネスの成功を左右すると言っても過言ではありません。<br><br>
+                    観光客に馴染みのあるハワイの某チョコレート会社が、何十年もの間採用していたパッケージを一新しニュースになりました。後から追いかけてきた他社のパッケージデザインのクォリティが高く、このままでは顧客が取られてしまうという危機感を持ったからです。<br><br>
+                    このように時代のニーズに合わせて新しい価値をクリエイトすることは、今後の課題になっていくことでしょう。<br><br>
+
+                    さあ！まずはあなたの物語に寄り添う、才能に満ちあふれた優秀なデザイナーと巡り会ってください。
+                </p>
+            </div>
+        </section>
+
+        <section id="services">
+            <div class="container">
+                <h3>SERVICE CATEGORY</h3><br>
+                <div class="row">
+                    <div class="one-fourth push-one-fourth column">
+                        <img class="float-left" src="image/asterisk glyph.png">
+                        <div class="text-block">
+                            <h5>Branding Design</h5>
+                            <p>商品及びサービスに関わるデザインのすべて...<br />
+                                <a href="#branding" class="branding">続きを読む</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="one-fourth column">
+                        <img class="float-left" src="image/asterisk glyph.png">
+                        <div class="text-block">
+                            <h5>UX/UI Design</h5>
+                            <p>デザイン性、機能性とユーザ体験を融合した...<br><a href="#uidesign" class="UIdesign_details">続きを読む</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="one-fourth push-one-fourth column">
+                        <img class="float-left" src="image/asterisk glyph.png">
+                        <div class="text-block">
+                            <h5>web Development</h5>
+                            <p>インターネット上に表示させるためのシステム開発...<br><a href="#webdevelopment"
+                                    class="barnding details">続きを読む</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="one-fourth column">
+                        <img class="float-left" src="image/asterisk glyph.png">
+                        <div class="text-block">
+                            <h5>Motion Graphic</h5>
+                            <p>本来は動かない文字やイラスト、アイコン、写真など動くように...<br></gr><a href="#motiongraphic"
+                                    class="barnding details">続きを読む</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="one-fourth push-one-fourth column">
+                        <img class="float-left" src="image/asterisk glyph.png">
+                        <div class="text-block">
+                            <h5>Video Editing</h5>
+                            <p>顧客の用途（Instagramビデオ、YouTubeビデオ...<br><a href="#videoediting"
+                                    class="barnding details">続きを読む</a></p>
+                        </div>
+                    </div>
+                    <div class="one-fourth column">
+                        <img class="float-left" src="image/asterisk glyph.png">
+                        <div class="text-block">
+                            <h5>Photography</h5>
+                            <p>特別な一日を画像として残したい...<br><a href="#photography" class="barnding details">続きを読む</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="section1" class="scroll-triggered">
+            <div class="container">
+                <div class="row">
+                    <div class="one-third jd-contentblock-image">
+                        <img src="image/service category_1.jpg" alt="placeholder">
+                    </div>
+                    <div class="two-thirds jd-contentblock-text">
+                        <h4 id="branding">Branding Design</h4><br>
+                        <p>商品及びサービスに関わるデザインのすべて。</p><br>
+                        <p> ロゴ、ポスター、チラシ、パンフレット、カタログ、招待状、封筒、DM、名刺、ショップカード、パッケージ、看板、PR誌、Emailテンプレート等</p><br>
+                        <div class="row">
+                            <div class="column">
+                                <a class="tooltip" href="christel.html" target="christel">
+                                    <img src="image/s_Christel.png" width="40" height="40" alt="christel">
+                                    <div class="tooltip_text">
+                                        <h6>Christel</h6>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="column">
+                                <a class="tooltip" href="#" target="hanako"><img src="image/s_Hanako.png" width="40"
+                                        height="40" alt="hanako">
+                                    <div class="tooltip_text">
+                                        <h6>Olivia</h6>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="column">
+                                <a class="tooltip" href="#" target="olivia"><img src="image/s_Olivia.png" width="40"
+                                        height="40" alt="olivia">
+                                    <div class="tooltip_text">
+                                        <h6>Jill</h6>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="column">
+                                <a class="tooltip" href="#" target="steve"><img src="image/s_Steve.png" width="40"
+                                        height="40" alt="steve">
+                                    <div class="tooltip_text">
+                                        <h6>Steven</h6>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="section2" class="scroll-triggered" data-sectionstate="active">
+            <div class="container">
+                <div class="row swapped">
+                    <div class="one-third jd-contentblock-image">
+                        <img src="image/service category_2.jpg" alt="placeholder">
+                    </div>
+                    <div class="two-thirds jd-contentblock-text">
+                        <h4 id="uidesign">UX/UI Design</h4><br>
+                        <p>デザイン性、機能性とユーザ体験を融合したオリジナルウェブサイト及びモバイルアプリのデザイン。<br><br>サイトのコンセプトを明確にし、その上でサイトマップによる全体を階層構造にしてコンテンツをカテゴリー化する。そしてページごとのレイアウト、デザインを決めていく。<br><br>
+                            ※UX（ユーザーエクスペリエンス User
+                            Experience）は、利用者がサービスや製品を通して得られるユーザー体験のこと。モバイルアプリやWebサービスにおいて、利用者が実際に触れる画面やボタンなどの「接点」がUXを形作る重要な要素となります。このような「接点」のことをUI（ユーザーインターフェース
+                            User Interface）と言い、UIはUXを構成する一要素と考えることができます。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="section1" class="scroll-triggered">
+            <div class="container">
+                <div class="row">
+                    <div class="one-third jd-contentblock-image">
+                        <img src="image/service category_3.jpg" alt="placeholder">
+                    </div>
+                    <div class="two-thirds jd-contentblock-text">
+                        <h4 id="webdevelopment">web Development</h4><br>
+                        <p>インターネット上に表示させるためのシステム開発及コーディング作業。</p>
+                        <br>
+                        <p>カスタマイズしたウェブサイト及びモバイルアプリ、ECサイト</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="section2" class="scroll-triggered" data-sectionstate="active">
+            <div class="container">
+                <div class="row swapped">
+                    <div class="one-third jd-contentblock-image">
+                        <img src="image/service category_4.jpg" alt="placeholder">
+                    </div>
+                    <div class="two-thirds jd-contentblock-text">
+                        <h4 id="motiongraphic">Motion Graphic</h4><br>
+                        <p>本来は動かない文字やイラスト、アイコン、写真など動くようにアニメーションにする。<br>動画要素を含むと視聴者に情報を分かりやすくを伝え、印象に残りやすい、インパクトを与えられる。
+                        </p>
+                        <br>
+                        <p>デジタルサイネージ、プロモーションビデオ、YouTubeのオープンニング／エンディング画面等</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="section1" class="scroll-triggered">
+            <div class="container">
+                <div class="row">
+                    <div class="one-third jd-contentblock-image">
+                        <img src="image/service category_5.jpg" alt="placeholder">
+                    </div>
+                    <div class="two-thirds jd-contentblock-text">
+                        <h4 id="videoediting">Video Editing</h4><br>
+                        <p>Instagram、YouTube、プロモーションビデオ、各種イベント等</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="section2" class="scroll-triggered" data-sectionstate="active">
+            <div class="container">
+                <div class="row swapped">
+                    <div class="one-third jd-contentblock-image">
+                        <img src="image/service category_6.jpg" alt="placeholder">
+                    </div>
+                    <div class="two-thirds jd-contentblock-text">
+                        <h4 id="photography">Photography</h4><br>
+                        <p>特別な一日を画像として残したい。</p>
+                        <br>
+                        <p>ウェディング、誕生日、卒業式、各種イベントでの撮影等</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="one-third">
+                    <p>© 2023 Hawaii Designers All rights reserved.</p>
+                </div>
+                <div class="one-third text-center">
+                    <a href="privacypolicy.html">
+                        <p>Private Policy</p>
+                    </a>
+                </div>
+                <div class="one-third text-right">
+                    <a href="#">
+                        <p>Terms</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- SMOOTH SCROLL BY CHRIS FERDINANDI https://github.com/cferdinandi/smooth-scroll -->
+    <script src="js/smooth-scroll.polyfills.min.js"></script>
+    <script>
+        var scroll = new SmoothScroll('a[href*="#"]', {
+            speed: 800,
+            speedAsDuration: true
+        });
+    </script>
+
+    <!-- MAIN JS SCRIPT.JS -->
+    <script src="js/script.js" defer></script>
+
+</body>
+
+</html>

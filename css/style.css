@@ -290,7 +290,7 @@ img {
 
 .artborder {
   border: 10px solid white;
-  box-shadow: 0 0 0 4px grey, 0 0 20px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 0 4px grey, 0 0 20px 0px rgba(239, 239, 239, 0.897);
 }
 
 /* RESET BODY */
