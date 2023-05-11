@@ -44,8 +44,16 @@ h6 {
 
 /* BASE TEXT FONTS */
 body {
-  font-family: arial;
+  font-family: a-otf-gothic-mb101-pr6n, sans-serif;
+  font-weight: 300;
+  font-style: normal;
 }
+
+[lang="en"] body {
+  font-family: "futura-pt", sans-serif;
+  font-weight: 400;
+}
+
 
 h1,
 h2,
@@ -53,18 +61,23 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: sans-serif, dnp-shuei-nshogomincho-std;
+  font-family: dnp-shuei-nshogomincho-std, serif;
   font-weight: 700;
   font-style: normal;
   text-decoration: none;
-
 }
 
-p {
-  font-family: sans-serif, a-otf-gothic-mb101-pr6n;
-  font-weight: 300;
-  font-style: normal;
+[lang="en"] h1,
+[lang="en"] h2,
+[lang="en"] h3,
+[lang="en"] h4,
+[lang="en"] h5,
+[lang="en"] h6 {
+  font-family: "operetta-12", serif;
+  font-weight: 400;
 }
+
+
 
 .site-id h1 {
   font-family: eb-garamond, serif;
@@ -1653,7 +1666,7 @@ button:hover {
 
 /* ENGLISH VERSION */
 
-.about-en p {
+/* .about-en p {
   text-align: left;
   margin: 0 auto;
   width: 800px;
@@ -1672,15 +1685,15 @@ button:hover {
   width: 100%;
   max-width: 800px;
   /*   height: 27.5rem; */
-  padding: 1em;
-  /* background-color: pink; */
-  margin: 0 auto;
+/* padding: 1em; */
+/* background-color: pink; */
+/* margin: 0 auto;
   overflow: hidden;
   position: relative;
   display: flex;
-  flex-direction: column;
-  /* padding: 2em 1em 2em 2em; */
-}
+  flex-direction: column; */
+/* padding: 2em 1em 2em 2em; */
+/* }
 
 .animation-box-en h1 {
   font-family: "operetta-12", serif;
@@ -1698,5 +1711,5 @@ button:hover {
 .about-en h3 {
   font-family: "operetta-12", serif;
   font-weight: 400;
-  font-style: normal;
-}
+    font-style: normal;
+  } */
