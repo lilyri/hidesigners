@@ -52,6 +52,7 @@ body {
 [lang="en"] body {
   font-family: "futura-pt", sans-serif;
   font-weight: 400;
+  font-size: 1.2em;
 }
 
 
@@ -1663,53 +1664,3 @@ button:hover {
 .card-wrapper .card {
   height: 100%;
 }
-
-/* ENGLISH VERSION */
-
-/* .about-en p {
-  text-align: left;
-  margin: 0 auto;
-  width: 800px;
-  font-family: "futura-pt", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.site-nav-en a {
-  font-family: "futura-pt", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.animation-box-en {
-  width: 100%;
-  max-width: 800px;
-  /*   height: 27.5rem; */
-/* padding: 1em; */
-/* background-color: pink; */
-/* margin: 0 auto;
-  overflow: hidden;
-  position: relative;
-  display: flex;
-  flex-direction: column; */
-/* padding: 2em 1em 2em 2em; */
-/* }
-
-.animation-box-en h1 {
-  font-family: "operetta-12", serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.animation-box-en p {
-  font-family: "futura-pt", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 1.2em;
-}
-
-.about-en h3 {
-  font-family: "operetta-12", serif;
-  font-weight: 400;
-    font-style: normal;
-  } */
